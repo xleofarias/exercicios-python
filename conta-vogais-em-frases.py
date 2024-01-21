@@ -2,7 +2,7 @@
 
 def conta_vogais():
     frase = input("Digite uma frase: ").lower()
-    vogais = "aeiou".lower()
+    vogais = "aeiou"
     count = 0
     for letra in frase:
         if letra in vogais:
